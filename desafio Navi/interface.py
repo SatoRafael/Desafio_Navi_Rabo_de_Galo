@@ -83,9 +83,7 @@ with st.container():
             """
         )
 
-
-
-df = pd.read_excel("RankingB1-23-12-2021.xlsx") 
+df = pd.read_excel(r"C:\Users\Lenovo\OneDrive\Área de Trabalho\Programação\desafio Navi/RankingB1-23-12-2021.xlsx") 
 
 
 st.write("---")
@@ -119,6 +117,7 @@ with st.container():
     else: 
         st.write('Quantidade de créditos:')
 
+
 st.write("---")
 st.title("""
           
@@ -128,14 +127,14 @@ with st.container():
     vendedor = {'UF':['SP','RJ'],
                 'Distribuidora':['Cedrap', 'Ceres'],
                 'Quantidade disponível':[2321.34,765.34],
-                'Período (dias)':[90,90],
+                'Período (meses)':[6,6],
                 'Tipo de Produtor':['Pessoa Física','Pessoa Física']
                 }
     tab_venda = pd.DataFrame(vendedor)
     st.dataframe(tab_venda)
     
     st.write('Para efetuar a compra e venda de créditos, é necessário estar cadastrado.')
-    st.write('Já possui conta? Entre abaixo:')
+    st.write('Já possui conta? Entre abaixo.')
     
     st.text_input('Login:')
     st.text_input('Senha:')
