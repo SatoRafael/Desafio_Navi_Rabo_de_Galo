@@ -2,9 +2,6 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 import pandas as pd
-import plotly as ff
-from matplotlib import pyplot as plt 
-import seaborn as sns
 
 st.set_page_config(page_title="E-Cred", page_icon =":zap:", layout='wide')
 
@@ -88,7 +85,7 @@ with st.container():
 
 
 
-df = pd.read_excel(r"C:\Users\Lenovo\OneDrive\Área de Trabalho\Programação\desafio Navi/RankingB1-23-12-2021.xlsx") 
+df = pd.read_excel("RankingB1-23-12-2021.xlsx") 
 
 
 st.write("---")
