@@ -119,21 +119,6 @@ with st.container():
     else: 
         st.write('Quantidade de créditos:')
 
-    st.subtitle('Quais são as melhores taxas do país?')
-    
-    df_grouped = df.groupby(['UF']).mean().reset_index()
-    del df_grouped['Ranking']
-    dfs = df_grouped.sort_values('Tarifa Convencional').head(5)
-    dft = df_grouped.sort_values('Tarifa Convencional').tail(5)
-
-    dfgr = dfs.append(dft)
-    #dfs.plot(x='UF', y=['Tarifa Convencional'], kind="bar")
-    ax = sns.barplot(x="UF", y="Tarifa Convencional", data=dfgr)
-    plt.show()
-    #ax.bar_label(ax.containers[0])
-
-    
-
 st.write("---")
 st.title("""
           
