@@ -83,7 +83,7 @@ with st.container():
             """
         )
 
-df = pd.read_excel(r"C:\Users\Lenovo\OneDrive\Área de Trabalho\Programação\desafio Navi/RankingB1-23-12-2021.xlsx") 
+df = pd.read_excel("RankingB1-23-12-2021.xlsx") 
 
 
 st.write("---")
