@@ -1,6 +1,7 @@
 # Desafio_Navi_Rabo_de_Galo
 
 Importante
+
 Para iniciar o streamlit é necessario abrir o cmd e digitar: streamlit run "caminho_do_arquivo.py" ou streamlit run caminho_do_arquivo.py
 
 
