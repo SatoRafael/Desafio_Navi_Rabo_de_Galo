@@ -1,5 +1,10 @@
 # Desafio_Navi_Rabo_de_Galo
 
+Importante
+Para iniciar o streamlit é necessario abrir o cmd e digitar: streamlit run "caminho_do_arquivo.py" ou streamlit run caminho_do_arquivo.py
+
+
+
 Inicialmente, importamos as bibliotecas necessárias: Pandas para análise dos dados, especificamente das tarifas, streamlit para criar uma interface interativa, streamlit_lottie para adicionar recursos visuais e request para extrair informações e imagens da internet.
 
 Com o streamlit criamos a página do E-Cred a partir de containers, e cada container possui funções ou informações distintas. No primeiro momento adicionamos o título e definimos o layout da página em seguida adicionamos recursos visuais por meio do request e streamlit_lottie.
