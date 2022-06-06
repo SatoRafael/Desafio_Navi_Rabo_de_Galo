@@ -77,7 +77,7 @@ with st.container():
         st.subheader("Modelo de Negócios")
         st. write(
             """
-            [Aprenda mais a fundo como funciona o E-Credit:](https://www.youtube.com/watch?v=fH7gbibd9fI)
+            [Aprenda mais a fundo como funciona o E-Credit:](https://www.youtube.com/watch?v=3C1rnTwDJaw)
 
 
             """
