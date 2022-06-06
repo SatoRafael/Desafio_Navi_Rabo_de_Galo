@@ -6,6 +6,8 @@ Para iniciar o streamlit é necessario abrir o cmd e digitar: streamlit run "cam
 
 
 
+
+
 Inicialmente, importamos as bibliotecas necessárias: Pandas para análise dos dados, especificamente das tarifas, streamlit para criar uma interface interativa, streamlit_lottie para adicionar recursos visuais e request para extrair informações e imagens da internet.
 
 Com o streamlit criamos a página do E-Cred a partir de containers, e cada container possui funções ou informações distintas. No primeiro momento adicionamos o título e definimos o layout da página em seguida adicionamos recursos visuais por meio do request e streamlit_lottie.
